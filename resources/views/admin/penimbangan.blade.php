@@ -48,22 +48,49 @@
 
     <h1 class="text-center">Timbang Anak</h1>
     <hr>
-    <button class="btn btn-success m-1">Tambah</button>
+ {{-- Tambah Data --}}
+ <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Tambah</button>
+
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+     <div class="modal-content">
+     <div class="modal-header">
+         <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Data Anak</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+         <form>
+         <div class="mb-3">
+             <label for="recipient-name" class="col-form-label">Tinggi Badan</label>
+             <input type="text" class="form-control" id="recipient-name">
+         </div>
+         <div class="mb-3">
+             <label for="recipient-name" class="col-form-label">Berat Badan</label>
+             <input type="text" class="form-control" id="recipient-name">
+         </div>
+         <div class="mb-3">
+             <label for="recipient-name" class="col-form-label">Tanggal Timbang</label>
+             <input type="text" class="form-control" id="recipient-name">
+         </div>
+
+         </form>
+     </div>
+     <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         <button type="button" class="btn btn-primary">Simpan Data</button>
+     </div>
+     </div>
+ </div>
+ </div>
     <hr>
-        </thead>
-        <tbody>
-            <tr>
             <table class="table table-bordered">
-        <thead>
+            <thead>
             <tr>
             <th scope="col">ID</th>
             <th scope="col">Tinggi Badan</th>
             <th scope="col">Berat Badan</th>
             <th scope="col">Tanggal Timbang</th>
-            </tr>
-        </thead>
-            </tr>
-        </tbody>
+            </thead>
         </table>
     </div>
 
@@ -78,6 +105,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 <body>
-    
+
 </body>
 </html>

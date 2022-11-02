@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Kalkulator-Kehamilan</title>
+<title>{{$title}}</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="css/stylekalkulator1.css" rel="stylesheet" />
+<link href="css/stylekalkulator2.css" rel="stylesheet" />
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
@@ -43,7 +43,7 @@ body, html {
       <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a> -->
       <a href="/page1" class="w3-bar-item w3-button"><i class="fa fa-angle-left"></i> KEMBALI</a>
     </div>
-    
+
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
@@ -55,16 +55,16 @@ body, html {
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-left w3-text-white" style="padding:48px">
-    <span class="w3-jumbo w3-hide-small">Kalkulator Kehamilan</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Kalkulator Kehamilan</span><br>
-    <span class="w3-large">eMomma juga menyediakan fitur Kalkulator kehamilan.</span><br>
-    <span class="w3-large">Yuk Bunda, hitung tanggal perkiraan si Kecil lahir melalui langkah mudah di bawah ini.</span>
-    <form action="/hitungHPHT.php">
-  <label for="HPHT">Hari Pertama Haid Terakhir (HPHT):</label><br>
-  <input type="date" id="HPHT" name="HPHT">
-  <input type="submit" href="/page1">
+    <span class="w3-jumbo w3-hide-small">Kalkulator for Kesuburan</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Kalkulator Kesuburan</span><br>
+    <span class="w3-large">eMomma juga menyediakan fitur Kalkulator kesuburan.</span><br>
+    <span class="w3-large">Fitur ini membantu dalam mengetahui tanggal masa subur dengan mudah.</span>
+    <form action="/kalkulator2">
+  <label for="TGLHT">Tanggal Haid Terakhir (HPHT):></label><br>
+  <input type="date" id="HPHT" name="CekKesuburan">
+  <input type="submit">
   </form>
-  </div> 
+  </div>
   <!-- <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>

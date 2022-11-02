@@ -65,6 +65,6 @@ Route::post('/register', [  RegisterController::class, 'store']);
 
 Route::get('/kalkulator1', [  CekKehamilanController::class, 'index']);
 
-Route::get('/kalkulator2', [  CekKesuburanController::class, 'index']);
+Route::any('/kalkulator2', [  CekKesuburanController::class, 'index']);
 
 Route::get('/kesehatanIbu', [  KesehatanIbu::class, 'index']);

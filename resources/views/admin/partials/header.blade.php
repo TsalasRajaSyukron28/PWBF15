@@ -25,7 +25,7 @@
           <li><a class="nav-link scrollto" href="/ibuhamil">Ibu Hamil</a></li>
           <!-- <li><a class="nav-link scrollto" href="/immunisasi">Immunisasi</a></li> -->
           <!-- <li><a href="/admin#blog">Jenis Immunisasi</a></li> -->
-          <li class="dropdown megamenu"><a href="/vitamin"><span>Vitamin</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          {{-- <li class="dropdown megamenu"><a href="/vitamin"><span>Vitamin</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li>
                 <a href="#">Vitamin A</a>
@@ -36,7 +36,7 @@
                 <a href="#">Vitamin D</a>
                 <a href="#">Vitamin E</a>
                 <a href="#">Vitamin AB</a>
-              </li>
+              </li> --}}
               <!-- <li>
                 <a href="#">Column 3 link 1</a>
                 <a href="#">Column 3 link 2</a>
